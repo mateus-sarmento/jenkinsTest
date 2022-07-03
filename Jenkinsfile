@@ -6,7 +6,7 @@ pipeline {
                 echo "Hello World!"
                 bat 'echo %PATH%'
                 bat 'echo %USERNAME%'
-                bat 'explorer'
+                bat 'C:\Users\Pichau\Desktop\Git\test.bat'
             }
         }
     }
