@@ -6,6 +6,7 @@ pipeline {
                 echo "Hello World!"
                 bat 'echo %PATH%'
                 bat 'echo %USERNAME%'
+                bat 'explorer'
             }
         }
     }
